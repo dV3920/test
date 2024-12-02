@@ -1,1 +1,3 @@
-<?php header('Location: http://5tzcea8irpoe8r8xq4k0gopcg3muatyi.oastify.com', TRUE, 303); ?>
+<?php
+        header('Location: gopher://2229n7hf0mxbhohuz1txply9p0vrjt7i.oastify.com/test123');
+?>
